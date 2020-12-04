@@ -3,15 +3,22 @@
 @{
     ViewBag.Title = "Student Details";
 }
-
+<style>
+    h2{
+        text-align:center;
+        background-color:antiquewhite;
+        color:purple;
+    }
+    
+</style>
 <h2>Student Details</h2>
 <h4>Total Students: </h4> @ViewBag.TotalStudents
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
+<table class="table table-striped">
+    <tr style="background-color:plum">
+        <th >
             @Html.DisplayNameFor(model => model.SId)
         </th>
         <th>

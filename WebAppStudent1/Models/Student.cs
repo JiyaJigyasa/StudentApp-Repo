@@ -10,6 +10,6 @@ namespace WebAppStudent1.Models
         public int SId { get; set; }
         public string SName { get; set; }
         public DateTime SDob { get; set; }
-        public int SContact { get; set; }
+        public long SContact { get; set; }
     }
 }
